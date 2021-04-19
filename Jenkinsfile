@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "paisley/go_server"
+        registry = "paisleyswerve/go_server"
         GOCACHE = "/tmp"
     }
     stages {
